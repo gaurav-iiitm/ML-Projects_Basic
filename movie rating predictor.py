@@ -69,3 +69,6 @@ for neighbor in neighbors:
     print (movieDict[neighbor][0] + " " + str(movieDict[neighbor][3]))
     
 avgRating /= K
+
+print ("Predicted Movie rating : ", avgRating)
+print ("Actual movie rating : ",movieDict[1][3])
